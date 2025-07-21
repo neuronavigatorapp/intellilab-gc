@@ -1,0 +1,11 @@
+Create a Streamlit page at /app/pages/column_inventory.py:
+- Add a form to track GC columns:
+    - Column name
+    - Length (m), ID (mm), Film (μm)
+    - Max Temp
+    - Polarity (Low, Medium, High)
+- Save to data/columns.json
+- Show table of all saved columns
+- Check each against existing methods (methods.json):
+    - Warn if max temp < method end temp
+    - Warn if polarity is mismatched

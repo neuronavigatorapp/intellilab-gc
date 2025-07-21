@@ -1,0 +1,4 @@
+Create a simple CLI tool to initialize the database:
+- In the root of the project, create `init_db.py`
+- It should import `init_db` from app.models and run it when executed
+- When done, the file gc_data.db should be created in the project root

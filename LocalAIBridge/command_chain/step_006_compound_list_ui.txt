@@ -1,0 +1,9 @@
+Create a Streamlit app page at /app/pages/compound_list.py:
+- Display all Compound entries in a table
+- For each row, show Edit and Delete buttons
+- On Delete:
+    - Confirm with the user before deleting
+- On Edit:
+    - Open a form pre-filled with compound values
+    - On submit, update the database with changes
+- Show success messages when actions complete

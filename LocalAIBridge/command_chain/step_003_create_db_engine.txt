@@ -1,0 +1,6 @@
+Create a database engine and session manager:
+- In `/app/models/database.py`, add the following:
+    - SQLAlchemy engine using sqlite:///gc_data.db
+    - sessionmaker bound to the engine
+    - function `init_db()` to create tables using Base.metadata.create_all
+- Update `__init__.py` to expose `engine`, `SessionLocal`, and `init_db`

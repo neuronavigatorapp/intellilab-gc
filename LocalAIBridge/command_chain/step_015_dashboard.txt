@@ -1,0 +1,7 @@
+Create a Streamlit page at /app/pages/instrument_dashboard.py:
+- Display cards or tables for each instrument:
+    - Assigned method (from instrument_methods.json)
+    - Most recent maintenance (from maintenance_log.csv)
+    - Assigned column (optional or from dropdown)
+    - Status: OK, Warning, Overdue
+- Support filtering by method or status

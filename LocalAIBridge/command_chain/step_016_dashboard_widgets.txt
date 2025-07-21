@@ -1,0 +1,5 @@
+Enhance the instrument dashboard with:
+- Dropdown filter for instrument selection
+- Pie chart of method assignments
+- Bar chart showing maintenance count per instrument
+- Show only selected instrument details if one is chosen

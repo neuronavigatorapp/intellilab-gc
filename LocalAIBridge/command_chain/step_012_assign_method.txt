@@ -1,0 +1,6 @@
+Create a Streamlit page at /app/pages/assign_method.py:
+- Show dropdown of instruments (static or from database)
+- Show dropdown of saved methods from methods.json
+- On submit:
+    - Save the mapping to data/instrument_methods.json
+- Display table showing current instrument-method links

@@ -1,0 +1,7 @@
+{
+  "faults": [
+    "ghost_peaks",
+    "baseline_noise"
+  ],
+  "notes": "Residual contamination or dirty syringe."
+}

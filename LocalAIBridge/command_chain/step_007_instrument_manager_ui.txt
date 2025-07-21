@@ -1,0 +1,10 @@
+Create a Streamlit page at /app/pages/instrument_manager.py:
+- Add a form to register new instruments with fields:
+    - name (text)
+    - model (text)
+    - serial number (text)
+    - location (text)
+    - status (select: Active, Maintenance, Offline)
+- Save data to a new Instrument table in the database
+- Display a table of existing instruments below the form
+- Show success or error messages after submit

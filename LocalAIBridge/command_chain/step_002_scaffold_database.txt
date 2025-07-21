@@ -1,0 +1,11 @@
+Create the initial SQLAlchemy database scaffolding in /app/models:
+- Create `base.py` with the declarative Base setup
+- Create `compound.py` with a Compound model:
+    - id (Integer, primary key)
+    - name (String)
+    - formula (String)
+    - molecular_weight (Float)
+    - method_tag (String)
+    - retention_time (Float)
+    - boiling_point (Float)
+- Update `__init__.py` in /models to import both base and compound models

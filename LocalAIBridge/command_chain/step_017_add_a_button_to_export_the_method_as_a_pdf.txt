@@ -1,0 +1,35 @@
+import os
+
+def build():
+    path = "app/pages/method_preview.py"
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("""
+
+
+# === Export to PDF ===
+from fpdf import FPDF
+
+def method_to_pdf(method_dict):
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", size=12)
+
+    pdf.cell(200, 10, txt="GC Method Export", ln=True, align='C')
+    pdf.ln(10)
+
+    for key, value in method_dict.items():
+        line = f"{key}: {value}"
+        pdf.cell(200, 10, txt=line, ln=True)
+
+    pdf_output = "method_export.pdf"
+    pdf.output(pdf_output)
+    return pdf_output
+
+if st.button("📄 Export Method as PDF"):
+    filename = method_to_pdf(method)
+    with open(filename, "rb") as file:
+        st.download_button("Download PDF", file, file_name=filename, mime="application/pdf")
+""")
+    return [path]

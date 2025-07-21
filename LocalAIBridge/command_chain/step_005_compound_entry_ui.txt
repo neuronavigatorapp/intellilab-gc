@@ -1,0 +1,11 @@
+Create a Streamlit app page at /app/pages/compound_entry.py:
+- Add a form with the following fields:
+    - name (text)
+    - formula (text)
+    - molecular weight (float)
+    - method tag (text)
+    - retention time (float)
+    - boiling point (float)
+- On submit:
+    - Store the compound using SQLAlchemy session from SessionLocal
+    - Show success message

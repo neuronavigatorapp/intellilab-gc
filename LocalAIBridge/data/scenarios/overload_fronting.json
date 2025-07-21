@@ -1,0 +1,6 @@
+{
+  "faults": [
+    "fronting"
+  ],
+  "notes": "Column overload or injection volume too high."
+}

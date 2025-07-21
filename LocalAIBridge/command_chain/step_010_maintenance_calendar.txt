@@ -1,0 +1,11 @@
+Create a Streamlit page at /app/pages/maintenance_calendar.py:
+- Add a dropdown to select an instrument
+- Add a form to log maintenance:
+    - Date (calendar input)
+    - Action performed
+    - Performed by
+    - Notes
+- Display:
+    - A table of maintenance logs
+    - A calendar view (plotly or component) showing logged events
+- Save all logs to a file or database table

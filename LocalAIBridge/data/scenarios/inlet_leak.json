@@ -1,0 +1,7 @@
+{
+  "faults": [
+    "inlet_leak",
+    "shift_rt"
+  ],
+  "notes": "Simulates retention time instability due to small leak."
+}

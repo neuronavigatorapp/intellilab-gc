@@ -1,0 +1,6 @@
+Create a Streamlit page at /app/pages/method_preview.py:
+- Show dropdown of saved methods (from methods.json)
+- Display full parameters of the selected method
+- Plot the temperature program:
+    - Line chart from start to end using ramp rate
+- Show detector and split ratio as labels

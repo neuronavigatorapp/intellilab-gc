@@ -1,0 +1,6 @@
+Create the initial folder structure for the GC IntelliLab project:
+- /app
+- /app/models
+- /app/pages
+- /app/utils
+- __init__.py files in each

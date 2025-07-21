@@ -1,0 +1,6 @@
+Create a Streamlit page at /app/pages/gc_troubleshooter.py:
+- Add a text input for the user to describe a GC problem
+- Send that text to a mock AI responder (placeholder function)
+- Display the AI's "response" in a chat-style container
+- Log the prompt + response below for session review
+- Eventually plug into a real LLM or local API

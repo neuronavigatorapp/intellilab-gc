@@ -1,0 +1,10 @@
+Create a Streamlit page at /app/pages/gc_csv_analyzer.py:
+- Allow user to upload a CSV file with peak data
+- Display the data as a table
+- Create a plot of Retention Time vs Area (or Height)
+- Flag any rows with:
+    - Retention Time < 0.5
+    - Area < 500
+    - Width/RT > 0.25 (tailing flag)
+- Allow user to filter flagged peaks only
+- Show number of flagged vs total peaks

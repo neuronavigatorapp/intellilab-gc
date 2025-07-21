@@ -1,0 +1,10 @@
+Create a Streamlit page at /app/pages/method_builder.py:
+- Add a form to define a method:
+    - Method Name
+    - Column Type
+    - Carrier Gas
+    - Oven Start Temp, End Temp, Ramp Rate
+    - Split Ratio
+    - Detector Type
+- Save to a method JSON file (or table)
+- Show a table of saved methods with edit/delete support
