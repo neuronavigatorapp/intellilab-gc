@@ -1,4 +1,3 @@
-
 def diagnose_issues(peaks: list, faults: list):
     suggestions = []
 
